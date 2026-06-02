@@ -43,4 +43,7 @@ int main()
         while (getline(infile, baris)) {
             cout << baris << endl;
         }
-       
+        //menutu file jika telah selesai
+        infile.close();
+    }
+   
