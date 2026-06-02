@@ -24,4 +24,7 @@ int main()
         getline(cin, baris);
         //kondisi false jika baris hanya berisi karakter q
         if (baris == "q") break;
-        
+        //menulis dan memasukan nilai dari variabel baris ke dalam file
+        outfile << baris << endl;
+    }
+    
